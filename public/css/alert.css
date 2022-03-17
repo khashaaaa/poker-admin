@@ -1,0 +1,15 @@
+.alert {
+  position: absolute;
+  top: 6rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0.5rem 0rem;
+  border-radius: 8px;
+  background-color: gold;
+  min-width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.alert-none {
+  display: none; }

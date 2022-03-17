@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;400;600&display=swap");
+.login_page {
+  background-color: teal;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .login_page form {
+    padding: 2rem;
+    background-color: navajowhite;
+    border-radius: 1rem; }
+    .login_page form .input_group {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 10px; }
+      .login_page form .input_group label {
+        font-size: 12px;
+        margin-bottom: 3px; }
+      .login_page form .input_group input {
+        padding: 5px 8px;
+        border-radius: 5px;
+        font-size: 16px; }
+        .login_page form .input_group input:focus {
+          background-color: #bde0ff; }
+    .login_page form button {
+      cursor: pointer;
+      color: white;
+      background-color: dodgerblue;
+      width: 100%;
+      border-radius: 5px;
+      padding: 5px 0;
+      font-size: 16px; }
+
+.alert {
+  position: absolute;
+  top: 6rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0.5rem 0rem;
+  border-radius: 8px;
+  background-color: gold;
+  min-width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.alert-none {
+  display: none; }
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html, body, button {
+  font-family: 'IBM Plex Sans', sans-serif; }
+
+input {
+  border: 0;
+  outline: 0;
+  background-color: aliceblue; }
+
+button {
+  border: 0;
+  outline: 0;
+  font-weight: bold; }

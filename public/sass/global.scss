@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;400;600&display=swap');
+@import './login.scss';
+@import './alert.scss';
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body, button {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+input {
+    border: 0;
+    outline: 0;
+    background-color: aliceblue;
+}
+
+button {
+    border: 0;
+    outline: 0;
+    font-weight: bold;
+}
